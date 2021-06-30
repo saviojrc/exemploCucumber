@@ -34,7 +34,7 @@ public class ConsultarProdutosSteps {
 	@Entao("^retorna a busca de acordo com o produto pesquisado$")
 	public void retornaABuscaDeAcordoComOProdutoPesquisado() throws Throwable {
 
-		String produtoBuscado = "notebook";
+		String produtoBuscado = "resultados para “notebook”";
 		String produtoAtual = paginaInicial.retornarProdutoBuscado();
 
 		Assert.assertEquals(produtoBuscado, produtoAtual);

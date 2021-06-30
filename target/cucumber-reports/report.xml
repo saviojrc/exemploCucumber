@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.88559">
-<testcase classname="Consultar Produtos" name="Buscar Produtos válido" time="20.88559">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="27.496208">
+<testcase classname="Consultar Produtos" name="Buscar Produtos válido" time="27.496208">
 <system-out><![CDATA[Dado que o usuario acesse o site da Amercianas..............................passed
 Quando buscar o produto "Notebook"..........................................passed
 E seleciona a opção "Buscar"................................................passed

@@ -14,16 +14,23 @@ public class BuscaProdutosPage extends BasePage {
 	private String url = "https://www.americanas.com.br/";
 	private By inputPesrquisa = By.id("h_search-input");
 	private By btnPesquisar = By.id("h_search-btn");
-	private By btnCoocks = By.id("lgpd-accept");
-	private By produtoBuscado = By.xpath("/html/body/div/div/div/div[3]/h1");
+	private By btnCoocks = By.cssSelector("#footer-lgpd > button:nth-child(2)");
+	private By produtoBuscado = By.cssSelector(".full-grid__Title-sc-19t7jwc-0");
 
 	public void abrirPagina() {
 		browser.get(url);
 	}
 
 	public void aceitarCoocks() {
-		waitElementClickable(btnCoocks, 5);
-		browser.findElement(btnCoocks).click();
+		try {
+			Thread.sleep(5000);
+			waitElementVisible(btnCoocks, 5);
+			waitElementClickable(btnCoocks, 5);
+			browser.findElement(btnCoocks).click();
+		}catch (Throwable e){
+			e.printStackTrace();
+			throw  new IllegalArgumentException(e.getMessage());
+		}
 	}
 
 	public void verificaSeEstouNaPagina() {

@@ -20,8 +20,8 @@ public class BrowserTypes {
 
 	public static WebDriver GetBrownser(Browsers browserUser) {
 		WebDriver resultBrowser;
-		 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\webdrivers\\chromedriver.exe");
-		 System.setProperty("webdriver.gecko.driver",  "src\\test\\resources\\webdrivers\\geckodriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver.exe");
+		 System.setProperty("webdriver.gecko.driver",  "src/test/resources/webdrivers/geckodriver.exe");
 
 		switch (browserUser) {
 			case CHROME:

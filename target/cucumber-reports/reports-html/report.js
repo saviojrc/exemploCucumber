@@ -19,7 +19,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 6649965500,
+  "duration": 8600223000,
   "status": "passed"
 });
 formatter.scenario({
@@ -60,7 +60,7 @@ formatter.match({
   "location": "ConsultarProdutosSteps.queOUsuarioAcesseOSiteDaAmercianas()"
 });
 formatter.result({
-  "duration": 3872273900,
+  "duration": 5431542300,
   "status": "passed"
 });
 formatter.match({
@@ -73,7 +73,7 @@ formatter.match({
   "location": "ConsultarProdutosSteps.buscarOProduto(String)"
 });
 formatter.result({
-  "duration": 1385491000,
+  "duration": 6194858400,
   "status": "passed"
 });
 formatter.match({
@@ -86,18 +86,18 @@ formatter.match({
   "location": "ConsultarProdutosSteps.selecionaAOpção(String)"
 });
 formatter.result({
-  "duration": 2340461200,
+  "duration": 3045891800,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultarProdutosSteps.retornaABuscaDeAcordoComOProdutoPesquisado()"
 });
 formatter.result({
-  "duration": 2336168000,
+  "duration": 400130900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4301230200,
+  "duration": 3823561600,
   "status": "passed"
 });
 });
